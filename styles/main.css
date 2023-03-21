@@ -1,0 +1,30 @@
+
+main {
+    width: 360px;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    padding: 16px;
+    
+}
+
+.introducao {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;  
+}
+
+.introducao_imagem {
+    padding-right: 16px;
+}
+
+.introducao_nome {
+    font-size: 22px;
+    font-weight: 700;
+    color:var(--cor-principal);
+}
+
+.introducao_texto {
+    font-size: 14px;
+    font-weight: 400;
+    color:var(--cor-secundaria);
+}

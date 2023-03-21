@@ -1,0 +1,18 @@
+
+@import url("styles/header.css");
+@import url("styles/icons.css");
+@import url("styles/main.css");
+
+:root {
+    --cor-de-fundo:#E5E5E5;
+    --cor-de-fundo-card:#FFFFFF;
+    --cor-botao-camera:#FFB050;
+    --cor-botao-endereco:#4894FF;
+    --cor-principal:#333333;
+    --cor-secundaria:#A3A3A3;
+    --cor-texto-botao:#FFFFFF;
+    --cor-borda-botao:#ECECEC;
+
+    --fonte-principal: 'Montserrat';
+}
+

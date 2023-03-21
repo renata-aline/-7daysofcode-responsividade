@@ -1,0 +1,18 @@
+
+.cabecalho {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center; 
+   width: 360px;
+   height: 33px;
+   padding: 5px 16px 6px 16px;
+   background-color: var(--cor-de-fundo-card);
+   
+}
+
+.cabecalho_relogio {
+   font-size: 14px;
+   font-weight: 400;
+   color:var (--cor-principal);
+}
