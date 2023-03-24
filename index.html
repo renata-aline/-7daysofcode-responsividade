@@ -18,41 +18,243 @@
     <header class="cabecalho">
       <span class="cabecalho_relogio">03:33</span>
       <div>
-        <i class="icons_icons-sinal-celular"></i>
-        <i class="icons icons-bateria"></i>
-        <i class="icons icons-sinal-wifi"></i>
+        <i class="icons icons_sinal-celular"></i>
+        <i class="icons icons_bateria"></i>
+        <i class="icons icons_sinal-wifi"></i>
       </div>
     </header>
     <main>
       <section class="introducao">
-        <img class="introducao_imagem"src="img/perfil1.svg" alt="imagem da sônia" />
+        <img
+          class="introducao_imagem"
+          src="img/perfil1.svg"
+          alt="imagem da sônia"
+        />
         <div>
           <h2 class="introducao_nome">Olá, Sônia</h2>
           <p class="introducao_texto">Mais 4 consultas hoje</p>
         </div>
       </section>
-        <h2>Hoje</h2>
-        <section class="card">
-          <div class="consulta-remota">
+      <h2>Hoje</h2>
+      <section class="cards">
+        <div class="card_consulta-remota">
+          <div class="card_header">
             <img src="img/perfil2.svg" alt="foto luciana dias" />
-            <h3>Luciana Dias</h3>
-            <i><span>Consulta remota</span></i>
-            <i></i>
-            <p>14:00 - 15:00 (1 hora)</p>
-            <button>Ligar por vídeo</button>
-            <button>Ligar por áudio</button>
-          </div>
-          <div class="consulta-local">
-            <img src="img/perfil3.svg" alt="foto larissa santana" />
-            <h3>Larissa Santana</h3>
-            <i><span>Consulta no local</span></i>
-            <i></i>
-            <p>16:00 - 17:00 - (1 hora)</p>
-            <button>
-              <a href="#">ver endereço</a>
+            <div class="card_perfil">
+              <h3 class="card_perfil-nome">Luciana Dias</h3>
+              <p class="card_perfil-texto">
+                <i class="icons icons_camera"></i>Consulta remota
+              </p>
+            </div>
+            <button class="icone_botao">
+              <i class="icons icons_chat"></i>
             </button>
           </div>
-        </section>
+          <hr />
+          <p class="horario">14:00 - 15:00 (1 hora)</p>
+          <div class="card_botao">
+            <button class="card_botao-video">Ligar por vídeo</button>
+            <button class="card_botao-audio">Ligar por áudio</button>
+          </div>
+        </div>
+        <div class="card_consulta-local">
+          <div class="card_header">
+            <img src="img/perfil3.svg" alt="foto larissa santana" />
+            <div class="card_perfil">
+              <h3 class="card_perfil-nome">Larissa Santana</h3>
+              <p class="card_perfil-texto">
+                <i class="icons icons_pin"></i>Consulta local
+              </p>
+            </div>
+            <button class="icone_botao">
+              <i class="icons icons_chat"></i>
+            </button>
+          </div>
+          <hr />
+          <p class="horario">16:00 - 17:00 - (1 hora)</p>
+          <button class="card_perfil-botao">
+            <a class="botao_perfil-endereco" href="#">ver endereço</a>
+          </button>
+        </div>
+        <div class="card_consulta-remota">
+          <div class="card_header">
+            <img src="img/perfil4.svg" alt="foto Marcos Correia" />
+            <div class="card_perfil">
+              <h3 class="card_perfil-nome">Marcos Correia</h3>
+              <p class="card_perfil-texto">
+                <i class="icons icons_camera"></i>Consulta remota
+              </p>
+            </div>
+            <button class="icone_botao">
+              <i class="icons icons_chat"></i>
+            </button>
+          </div>
+          <hr />
+          <p class="horario">17:20 - 18:00 (40 minutos)</p>
+          <div class="card_botao">
+            <button class="card_botao-video">Ligar por vídeo</button>
+            <button class="card_botao-audio">Ligar por áudio</button>
+          </div>
+        </div>
+        <h2>Amanhã</h2>
+        <div class="card_consulta-local">
+          <div class="card_header">
+            <img src="img/perfil5.svg" alt="foto Clara Lemos" />
+            <div class="card_perfil">
+              <h3 class="card_perfil-nome">Clara Lemos</h3>
+              <p class="card_perfil-texto">
+                <i class="icons icons_pin"></i>Consulta local
+              </p>
+            </div>
+            <button class="icone_botao">
+              <i class="icons icons_chat"></i>
+            </button>
+          </div>
+          <hr />
+          <p class="horario">18:00 - 19:00 - (1 hora)</p>
+          <button class="card_perfil-botao">
+            <a class="botao_perfil-endereco" href="#">ver endereço</a>
+          </button>
+        </div>
+        <div class="card_consulta-remota">
+          <div class="card_header">
+            <img src="img/perfil2.svg" alt="foto luciana dias" />
+            <div class="card_perfil">
+              <h3 class="card_perfil-nome">Luciana Dias</h3>
+              <p class="card_perfil-texto">
+                <i class="icons icons_camera"></i>Consulta remota
+              </p>
+            </div>
+            <button class="icone_botao">
+              <i class="icons icons_chat"></i>
+            </button>
+          </div>
+          <hr />
+          <p class="horario">14:00 - 15:00 (1 hora)</p>
+          <div class="card_botao">
+            <button class="card_botao-video">Ligar por vídeo</button>
+            <button class="card_botao-audio">Ligar por áudio</button>
+          </div>
+        </div>
+        <div class="card_consulta-remota">
+          <div class="card_header">
+            <img src="img/perfil4.svg" alt="foto Marcos Correia" />
+            <div class="card_perfil">
+              <h3 class="card_perfil-nome">Marcos Correia</h3>
+              <p class="card_perfil-texto">
+                <i class="icons icons_camera"></i>Consulta remota
+              </p>
+            </div>
+            <button class="icone_botao">
+              <i class="icons icons_chat"></i>
+            </button>
+          </div>
+          <hr />
+          <p class="horario">17:20 - 18:00 (40 minutos)</p>
+          <div class="card_botao">
+            <button class="card_botao-video">Ligar por vídeo</button>
+            <button class="card_botao-audio">Ligar por áudio</button>
+          </div>
+        </div>
+        <div class="card_consulta-local">
+          <div class="card_header">
+            <img src="img/perfil3.svg" alt="foto larissa santana" />
+            <div class="card_perfil">
+              <h3 class="card_perfil-nome">Larissa Santana</h3>
+              <p class="card_perfil-texto">
+                <i class="icons icons_pin"></i>Consulta local
+              </p>
+            </div>
+            <button class="icone_botao">
+              <i class="icons icons_chat"></i>
+            </button>
+          </div>
+          <hr />
+          <p class="horario">16:00 - 17:00 - (1 hora)</p>
+          <button class="card_perfil-botao">
+            <a class="botao_perfil-endereco" href="#">ver endereço</a>
+          </button>
+        </div>
+        <h2>Quarta-feira</h2>
+        <div class="card_consulta-local">
+          <div class="card_header">
+            <img src="img/perfil5.svg" alt="foto Clara Lemos" />
+            <div class="card_perfil">
+              <h3 class="card_perfil-nome">Clara Lemos</h3>
+              <p class="card_perfil-texto">
+                <i class="icons icons_pin"></i>Consulta local
+              </p>
+            </div>
+            <button class="icone_botao">
+              <i class="icons icons_chat"></i>
+            </button>
+          </div>
+          <hr />
+          <p class="horario">18:00 - 19:00 - (1 hora)</p>
+          <button class="card_perfil-botao">
+            <a class="botao_perfil-endereco" href="#">ver endereço</a>
+          </button>
+        </div>
+        <div class="card_consulta-remota">
+          <div class="card_header">
+            <img src="img/perfil2.svg" alt="foto luciana dias" />
+            <div class="card_perfil">
+              <h3 class="card_perfil-nome">Luciana Dias</h3>
+              <p class="card_perfil-texto">
+                <i class="icons icons_camera"></i>Consulta remota
+              </p>
+            </div>
+            <button class="icone_botao">
+              <i class="icons icons_chat"></i>
+            </button>
+          </div>
+          <hr />
+          <p class="horario">14:00 - 15:00 (1 hora)</p>
+          <div class="card_botao">
+            <button class="card_botao-video">Ligar por vídeo</button>
+            <button class="card_botao-audio">Ligar por áudio</button>
+          </div>
+        </div>
+        <div class="card_consulta-remota">
+          <div class="card_header">
+            <img src="img/perfil4.svg" alt="foto Marcos Correia" />
+            <div class="card_perfil">
+              <h3 class="card_perfil-nome">Marcos Correia</h3>
+              <p class="card_perfil-texto">
+                <i class="icons icons_camera"></i>Consulta remota
+              </p>
+            </div>
+            <button class="icone_botao">
+              <i class="icons icons_chat"></i>
+            </button>
+          </div>
+          <hr />
+          <p class="horario">17:20 - 18:00 (40 minutos)</p>
+          <div class="card_botao">
+            <button class="card_botao-video">Ligar por vídeo</button>
+            <button class="card_botao-audio">Ligar por áudio</button>
+          </div>
+        </div>
+        <div class="card_consulta-local">
+          <div class="card_header">
+            <img src="img/perfil3.svg" alt="foto larissa santana" />
+            <div class="card_perfil">
+              <h3 class="card_perfil-nome">Larissa Santana</h3>
+              <p class="card_perfil-texto">
+                <i class="icons icons_pin"></i>Consulta local
+              </p>
+            </div>
+            <button class="icone_botao">
+              <i class="icons icons_chat"></i>
+            </button>
+          </div>
+          <hr />
+          <p class="horario">16:00 - 17:00 - (1 hora)</p>
+          <button class="card_perfil-botao">
+            <a class="botao_perfil-endereco" href="#">ver endereço</a>
+          </button>
+        </div>
+      </section>
     </main>
   </body>
 </html>

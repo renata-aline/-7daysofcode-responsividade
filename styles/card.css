@@ -1,0 +1,94 @@
+.card_consulta-remota,
+.card_consulta-local {
+  background-color: var(--cor-de-fundo-card);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+.card_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card_perfil {
+  padding-right: 80px;
+}
+
+.card_perfil-nome {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--cor-principal);
+  margin-trim: 16px;
+}
+
+.card_perfil-texto {
+  display: flex;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--cor-secundaria);
+}
+
+hr {
+  border: 1px solid var(--cor-borda-botao);
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.horario {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--cor-secundaria);
+}
+
+.icone_botao {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+}
+
+.card_botao {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card_botao-video {
+  width: 50%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--cor-borda-botao);
+  background-color: var(--cor-botao-camera);
+  color: var(--cor-texto-botao);
+  margin-right: 10px;
+}
+
+.card_botao-audio {
+  width: 50%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--cor-borda-botao);
+  color: var(--cor-secundaria);
+}
+
+.card_perfil-botao {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--cor-borda-botao);
+  background-color: var(--cor-botao-endereco);
+}
+
+.botao_perfil-endereco {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--cor-texto-botao);
+  text-decoration: none;
+}

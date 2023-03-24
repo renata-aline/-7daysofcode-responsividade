@@ -1,4 +1,33 @@
-.icons_icons-sinal-celular {
+.icons { 
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icons_sinal-celular {
     background-image: url(../img/icons/sinal-celular.svg);
-    background-color: aqua;
+}
+
+.icons_bateria {
+    background-image: url(../img/icons/bateria.svg);
+}
+
+.icons_sinal-wifi {
+    background-image: url(../img/icons/wifi.svg);
+}
+
+.icons_camera {
+    background-image: url(../img/icons/Camera.svg);
+}
+
+.icons_chat {
+    background-image: url(../img/icons/chat.svg);
+    
+}
+
+.icons_pin {
+    background-image: url(../img/icons/pin.svg);
 }
