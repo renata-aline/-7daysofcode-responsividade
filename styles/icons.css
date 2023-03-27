@@ -31,3 +31,20 @@
 .icons_pin {
     background-image: url(../img/icons/pin.svg);
 }
+
+.icons_calendario {
+    background-image: url(../img/icons/calendario.svg);
+}
+
+.icons_cliente {
+    background-image: url(../img/icons/cliente.svg);
+    
+}
+
+.icons_relatorio {
+    background-image: url(../img/icons/relatorio.svg);
+}
+
+.icons_menu {
+    background-image: url(../img/icons/menu.svg);
+}

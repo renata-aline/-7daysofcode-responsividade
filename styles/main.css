@@ -1,5 +1,6 @@
 
 main {
+    box-sizing: border-box;
     width: 360px;
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
