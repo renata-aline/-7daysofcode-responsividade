@@ -1,0 +1,82 @@
+.botoes-flutuantes {
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+}
+
+.botao-flutuante_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    display: none;
+    
+}
+
+.complemento {
+    font-weight: 500;
+    font-size: 12px;
+    background-color: var(--cor-de-fundo-card);
+    border: 1px solid var(--cor-borda-botao);
+    border-radius: 23px;
+    padding: 2px 8px 2px 8px; 
+} 
+
+.botao-flutuante {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--cor-borda-botao);
+    font-size: 30px;
+    background-color: var(--cor-botao-flutuante);
+    color: var(--cor-texto-botao);
+    cursor: pointer;
+    display: block;
+    
+}
+
+.botao-flutuante_camera-white {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--cor-borda-botao);
+    font-size: 30px;
+    background-color: var(--cor-botao-flutuante);
+}
+
+.botao-flutuante_pin-white {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--cor-borda-botao);
+    font-size: 30px;
+    background-color: var(--cor-botao-flutuante);
+}
+
+.botao-flutuante:hover {
+    background-color: #4682B4;
+}
+
+.botao-flutuante_camera-white:hover {
+    background-color: #4682B4;
+}
+
+.botao-flutuante_pin-white:hover {
+    background-color:#4682B4 ;
+}
+
+.botoes-flutuantes.active .botao-flutuante_icons {
+    display: block;
+} 
+
+/* .botoes-flutuantes:hover .botao-flutuante_icons {
+    display: block;
+} */
+
+

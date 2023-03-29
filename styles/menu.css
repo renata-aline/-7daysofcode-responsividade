@@ -4,7 +4,6 @@
   border-radius: 12px 12px 0 0;
   position: fixed;
   bottom: 0;
-  left: 0;
   background-color: var(--cor-de-fundo-card);
 }
 
@@ -12,7 +11,8 @@
   display: flex;
   justify-content: space-between;
   list-style: none;
-  padding: 8px 12px;
+  padding-left:12px;
+  
 }
 
 .menu-rodape_item-da-lista a {

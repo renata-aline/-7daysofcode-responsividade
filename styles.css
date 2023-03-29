@@ -4,12 +4,14 @@
 @import url("styles/main.css");
 @import url("styles/card.css");
 @import url("styles/menu.css");
+@import url("styles/botao.css");
 
 :root {
     --cor-de-fundo:#E5E5E5;
     --cor-de-fundo-card:#FFFFFF;
     --cor-botao-camera:#FFB050;
     --cor-botao-endereco:#4894FF;
+    --cor-botao-flutuante:#4894ff;
     --cor-principal:#333333;
     --cor-secundaria:#A3A3A3;
     --cor-texto-botao:#FFFFFF;
@@ -18,3 +20,8 @@
     --fonte-principal: 'Montserrat';
 }
 
+.container {
+    width: 360px;
+    margin: 0 auto;
+    
+}

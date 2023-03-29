@@ -23,6 +23,10 @@
     background-image: url(../img/icons/Camera.svg);
 }
 
+.icons_camera-white {
+    background-image: url(../img/icons/Camera.svg);
+}
+
 .icons_chat {
     background-image: url(../img/icons/chat.svg);
     
@@ -31,6 +35,11 @@
 .icons_pin {
     background-image: url(../img/icons/pin.svg);
 }
+
+.icons_pin-white {
+    background-image: url(../img/icons/pin.svg);
+}
+
 
 .icons_calendario {
     background-image: url(../img/icons/calendario.svg);

@@ -15,6 +15,7 @@
     <title>desafio responsividade</title>
   </head>
   <body>
+    <div class="container">
     <header class="cabecalho">
       <span class="cabecalho_relogio">03:33</span>
       <div>
@@ -256,7 +257,6 @@
         </div>
       </section>
     </main>
-    <button class="botao-flutuante">+</button>
     <footer class="menu-rodape">
       <ul class="menu-rodape_lista">
         <li class="menu-rodape_item-da-lista">
@@ -276,6 +276,23 @@
           <a href="#">Menu</a>
         </li>
       </ul>
+      <div class="botoes-flutuantes" id="botoes-flutuantes">
+        <div class="botao-flutuante_icons">
+          <span class="complemento">Nova consulta por vídeo</span>
+          <button class="botao-flutuante_camera-white">
+            <i class="icons icons_camera"></i>
+          </button>
+        </div>
+        <div class="botao-flutuante_icons">
+          <span class="complemento">Nova consulta na casa do paciente</span>
+          <button class="botao-flutuante_pin-white">
+            <i class="icons icons_pin"></i>
+          </button>
+        </div>
+        <button class="botao-flutuante" id="botao-flutuante">+</button>
+      </div>
     </footer>
+    <script src="index.js"></script>
   </body>
+</div>
 </html>
